@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Phd student 
+subtitle: Phd student
 ---
 
 My name is Charilaos (Harry) Mylonas, and I am a Phd candidate on the topic of Uncertainty Quantification for Remaining Useful Lifetime predictions on Wind Energy. 
@@ -9,8 +9,6 @@ My research is funded by the *ERC Starting Grant WINDMIL on the topic of  "Smart
 
 My hobies include guitar, photography and electronics/microcontrolers.
 
-#- I rock a great mustache
-#- I'm extremely loyal to my family
 
 #What else do you need?
 
