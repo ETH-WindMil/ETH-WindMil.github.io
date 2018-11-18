@@ -12,7 +12,8 @@ hopefully making it flexible enough for speech style transfer ;).
 
 Random notes for speech recognition with NN:
 
-## 18/11/2018 Reading the data, first signal analysis results
+## 18/11/2018 
+### Reading the data, first signal analysis results
 * Found TIMIT dataset on Academic torrents
 * Played around with transformation from stft/mel/invmel/invstft
 * audio reconstruction quite good with 80 mel banks (what Andrew Senior mentions that Google uses in [this youtube video](https://www.youtube.com/watch?v=HyUtT_z-cms) )
