@@ -24,6 +24,3 @@ Random notes for speech recognition with NN:
 Goal is to squish the high input dimensions fast, with huge matrices and a lot of dropout. 
 At the moment I have complex mel inputs for the network. I'm thinking of treating them uniformly - it doesn't make sense to simply discard them. The network should find out what to do with them.
 
-
-That's it for today!
-
