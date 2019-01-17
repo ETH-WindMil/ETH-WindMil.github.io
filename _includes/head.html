@@ -12,6 +12,12 @@
   {% endif %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }} {{ site.title-separator }} {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  {% if page.usemathjax %}
+    <script type="text/javascript" async
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+  {% end if %}
+
 
   {% include gtag.html %}
   {% include gtm_head.html %}
@@ -29,11 +35,6 @@
     {% endfor %}
   {% endif %}
 
-  {% if page.usemathjax %}
-    <script type="text/javascript" async
-    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-  </script>
-  {% end if %}
 
   {% if layout.common-googlefonts %}
     {% for font in layout.common-googlefonts %}
